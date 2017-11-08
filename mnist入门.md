@@ -40,6 +40,10 @@ print(sess.run(accuracy, feed_dict={x: mnist.test.images, y_: mnist.test.labels}
  <p style="color:red">解决办法：</p>  
  下载该文件，，然后将路径改成数据集所在的路径
 
+### 4.知识点
+tf.argmax():返回tensor对象在某一维上的数据最大值所在的索引值  
+tf.equal(a,b):返回一组布尔值，若a,b对应位置数值相等，相应位置的结果为True,反之为False  
+tf.reduce_mean(): 求平均  
 
  
  
