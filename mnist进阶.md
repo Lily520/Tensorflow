@@ -5,6 +5,9 @@
 此代码实现的网络结构为： 卷积+池化(14x14x32)+卷积+池化(7x7x64)+全连接+Dropout+softmax
 
 ### 2.code
+
+代码文件为mnist包下的mnist_deep.py  
+
 ```python
 import tensorflow as tf
 
