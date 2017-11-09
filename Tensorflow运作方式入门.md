@@ -37,4 +37,5 @@ values：就是两个或者一组待连接的tensor
 
 #### 3.4. 利用Tensorboard可视化学习
 首先启动Tensorboard：python tensorflow/tensorboard/tensorboard.py --logdir=path/to/log-directory    
+
 然后在浏览器中输入 localhost:6006 来查看 TensorBoard。 
