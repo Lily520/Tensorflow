@@ -4,6 +4,9 @@
 用softmax回归实现mnist数据集手写数字识别
 
 ### 2.code
+
+代码文件为 mnist_softmax.py  
+
 ```python
 from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets("/home/zhoulili/code/", one_hot=True)
